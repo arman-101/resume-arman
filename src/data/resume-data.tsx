@@ -44,7 +44,7 @@ export const RESUME_DATA: ResumeData = {
   skills: [
     "HTML", "CSS", "JavaScript", "React", "Vue", "Tailwind CSS", "Bootstrap",
     "Node.js", "Express", "Firebase", "Supabase", "Python", "Java", "Git", 
-    "GitHub", "Vite", "Webpack", "Netlify", "Render"
+    "GitHub", "Vite", "Webpack", "Netlify", "Render", "C#"
   ],
   projects: [
     {
@@ -126,6 +126,15 @@ export const RESUME_DATA: ResumeData = {
       link: {
         label: "GitHub Repo",
         href: "https://github.com/arman-101/password-manager",
+      },
+    },
+        {
+      title: "Barcode Scanner Mobile App",
+      techStack: ["C#"],
+      description: "A barcode food scanning app for nutritional information.",
+      link: {
+        label: "GitHub Repo",
+        href: "https://github.com/arman-101/barcode-scanner-app",
       },
     },
   ],
