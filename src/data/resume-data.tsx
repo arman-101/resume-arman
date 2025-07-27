@@ -15,7 +15,7 @@ export const RESUME_DATA: ResumeData = {
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/78878938?v=4",
-  personalWebsiteUrl: "https://www.linkedin.com/in/arman-shakir-b3aa91270/",
+  personalWebsiteUrl: "https://resume-arman.vercel.app/",
   contact: {
     email: "arman-101@hotmail.com",
     tel: "",
