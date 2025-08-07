@@ -9,7 +9,7 @@ export const RESUME_DATA: ResumeData = {
   summary: (
     <>
       Software Engineer with hands-on experience building full-stack web apps
-      using React, Firebase, Node.js, Vue, and Python. Comfortable working on both
+      using React, NextJS, Tailwind, Firebase, Node.js, Vue, and Python. Comfortable working on both
       frontend interfaces and backend logic. Continuously learning and improving
       through self-driven projects.
     </>
@@ -42,11 +42,20 @@ export const RESUME_DATA: ResumeData = {
   ],
   work: [],
   skills: [
-    "HTML", "CSS", "JavaScript", "React", "Vue", "Tailwind CSS", "Bootstrap",
+    "HTML", "CSS", "JavaScript", "React", "Vue", "NextJS", "Tailwind CSS", "Bootstrap",
     "Node.js", "Express", "Firebase", "Supabase", "Python", "Java", "Git", 
     "GitHub", "Vite", "Webpack", "Netlify", "Render", "C#"
   ],
   projects: [
+        {
+      title: "Reduce It",
+      techStack: ["NextJS", "Tailwind", "Vercel"],
+      description: "A UI + UX well done NextJS web app to reduce image sizes without loss of quality.",
+      link: {
+        label: "Live Site",
+        href: "https://reduce-it.vercel.app/",
+      },
+    },
     {
       title: "WikiHistory",
       techStack: ["HTML", "CSS", "JavaScript", "API"],
