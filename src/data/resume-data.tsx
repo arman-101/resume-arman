@@ -47,6 +47,15 @@ export const RESUME_DATA: ResumeData = {
     "GitHub", "Vite", "Webpack", "Netlify", "Render", "C#"
   ],
   projects: [
+            {
+      title: "History Timeline",
+      techStack: ["React", "Tailwind", "Vercel"],
+      description: "An interactive timeline map of major historical events!",
+      link: {
+        label: "Live Site",
+        href: "https://history-map-mu.vercel.app/",
+      },
+    },
         {
       title: "Reduce It",
       techStack: ["NextJS", "Tailwind", "Vercel"],
