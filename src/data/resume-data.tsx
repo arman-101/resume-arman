@@ -47,6 +47,15 @@ export const RESUME_DATA: ResumeData = {
     "GitHub", "Vite", "Webpack", "Netlify", "Render", "C#"
   ],
   projects: [
+                {
+      title: "The Dandelion Dynasty Wiki",
+      techStack: ["NextJS", "React", "Tailwind", "Vercel"],
+      description: "Comprehensive, Quick and Modern UI for The Dandelion Dynasty Book Series!",
+      link: {
+        label: "Live Site",
+        href: "https://dandelion-wiki.vercel.app/",
+      },
+    },
             {
       title: "History Timeline",
       techStack: ["React", "Tailwind", "Vercel"],
