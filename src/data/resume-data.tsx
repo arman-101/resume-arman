@@ -47,6 +47,15 @@ export const RESUME_DATA: ResumeData = {
     "GitHub", "Vite", "Webpack", "Netlify", "Render", "C#"
   ],
   projects: [
+                    {
+      title: "Martyr Made Podcast Website Alternative",
+      techStack: ["NextJS", "React", "Tailwind", "Vercel"],
+      description: "Much better alternative to the current Martyr Made Podcast Website, pretty, quick and informative!",
+      link: {
+        label: "Live Site",
+        href: "https://martyr-made.vercel.app/",
+      },
+    },
                 {
       title: "The Dandelion Dynasty Wiki",
       techStack: ["NextJS", "React", "Tailwind", "Vercel"],
